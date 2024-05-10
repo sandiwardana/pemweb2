@@ -1,0 +1,49 @@
+<div id="layoutSidenav">
+    <div id="layoutSidenav_nav">
+        <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+            <div class="sb-sidenav-menu">
+                <div class="nav">
+                    <div class="sb-sidenav-menu-heading">Welcome</div>
+                    <nav class="mt-2">
+                        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                          <!-- Add icons to the links using the .nav-icon class
+                          with font-awesome or any other icon font library -->
+                          <li class="nav-item">
+                            <a href="index.php" class="nav-link">
+
+                              <p>
+                                Dashboard 
+                              </p>
+                            </a>
+                          </li>
+                        </ul>
+                    </nav>
+                    <a class="nav-link collapsed" href="#" class = "nav-link active" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                        <div class="sb-nav-link-icon"><i class="nav-icon fas fa-user-plus"></i></div>
+                        Table Data 
+                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                    </a>
+                    <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                        <nav class="sb-sidenav-menu-nested nav">
+                            <a class="nav-link" href="table_pasien.php">Table Pasien</a>
+                            <a class="nav-link" href="table_dokter.php">Table Dokter</a>
+                            <a class="nav-link" href="table_periksa.php">Table Pemeriksaan</a>
+                        </nav>
+                    </div>
+                    <nav class="mt-2">
+                        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                          <!-- Add icons to the links using the .nav-icon class
+                          with font-awesome or any other icon font library -->
+                          <li class="nav-item">
+                            <a class="nav-link" href="index.html" >
+                              <p>Logout</p>
+                            </a>
+                          </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div id="layoutSidenav_content">
+        <main>
